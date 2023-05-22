@@ -4,6 +4,7 @@ import userEvent from '@testing-library/user-event';
 import Formulario from './index';
 
 describe('Formulario', () => {
+
     test('verifica se o nome tem no mínimo 2 letras', () => {
         render(<Formulario />);
 
